@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react() , tailwindcss()],
-  base: "/currencyConverter"  // Ensure this matches your GitHub repo name
-})
+  base: "/currencyConverter/", // ✅ Add trailing slash
+});

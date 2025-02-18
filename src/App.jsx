@@ -4,7 +4,7 @@ import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import './App.css'
 
 function App() {
-  const [amount, setAmount] = useState("0");
+  const [amount, setAmount] = useState("");
   const [from, setFrom] = useState("cad");
   const [to, setTo] = useState("inr");
   const [convertedAmount, setConvertedAmount] = useState("0");

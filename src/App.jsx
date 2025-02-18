@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [amount, setAmount] = useState("0");
-  const [from, setFrom] = useState("usd");
+  const [from, setFrom] = useState("cad");
   const [to, setTo] = useState("inr");
   const [convertedAmount, setConvertedAmount] = useState("0");
 
